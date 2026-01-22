@@ -1,0 +1,79 @@
+# Ambiente Virtual
+venv/
+env/
+ENV/
+.venv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Streamlit
+.streamlit/
+streamlit_config.yaml
+.streamlit/secrets.toml
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Cache
+.cache/
+*.cache
+__pycache__/
+.pytest_cache/
+
+# Logs
+*.log
+logs/
+
+# Dados sensíveis
+.env
+.env.local
+secrets.txt
+credenciais.txt
+bases_conectadas.txt
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.bak
+.tmp/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Testing
+.coverage
+.tox/
+htmlcov/
+
+# Arquivos do SO
+.directory
+.Spotlight-V100
+.Trashes
